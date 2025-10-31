@@ -79,3 +79,25 @@ body {
 		font-family: "Perfect Dark (BRK)", sans-serif;
 	}
 }
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 3em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 2em;
+	text-align: center;
+}
+
+p {
+	max-width: 600px;
+	padding: 10px;
+	margin: 20px auto;
+	font-size: 1.1em;
+}

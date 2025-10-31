@@ -20,7 +20,6 @@ export default {
 			},
 			fontFamily: {
 				"perfect-dark": ['"Perfect Dark (BRK)"', "sans-serif"],
-				lato: ["Lato", "Arial", "sans-serif"],
 			},
 			animation: {
 				gradient: "gradient 15s ease infinite",
