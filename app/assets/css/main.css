@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "Perfect Dark (BRK)";
+	src: url("~/assets/fonts/pdark.ttf");
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.gradient-bg {
+	background: linear-gradient(-45deg, #070707, #0c0c0c, #111, #222, #240c11, #191d36, #10131d, #070707);
+	background-size: 400% 1100%;
+	animation: gradient 15s ease infinite;
+	min-height: 100vh;
+	width: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@layer utilities {
+	.text-custom-black {
+		color: #222;
+	}
+	.text-custom-blue {
+		color: #4338a1;
+	}
+	.text-light-blue {
+		color: #949af5;
+	}
+	.text-custom-red {
+		color: #f73c57;
+	}
+	.text-light {
+		color: #f1f1f1;
+	}
+	.text-dark {
+		color: #333;
+	}
+	.bg-custom-black {
+		background-color: #222;
+	}
+	.bg-custom-blue {
+		background-color: #4338a1;
+	}
+	.bg-light-blue {
+		background-color: #949af5;
+	}
+	.bg-custom-red {
+		background-color: #f73c57;
+	}
+}
+
+@layer base {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: "Perfect Dark (BRK)", sans-serif;
+	}
+}
