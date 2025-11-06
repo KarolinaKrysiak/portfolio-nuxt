@@ -36,39 +36,6 @@ body {
 	}
 }
 
-@layer utilities {
-	.text-custom-black {
-		color: #222;
-	}
-	.text-custom-blue {
-		color: #4338a1;
-	}
-	.text-light-blue {
-		color: #949af5;
-	}
-	.text-custom-red {
-		color: #f73c57;
-	}
-	.text-light {
-		color: #f1f1f1;
-	}
-	.text-dark {
-		color: #333;
-	}
-	.bg-custom-black {
-		background-color: #222;
-	}
-	.bg-custom-blue {
-		background-color: #4338a1;
-	}
-	.bg-light-blue {
-		background-color: #949af5;
-	}
-	.bg-custom-red {
-		background-color: #f73c57;
-	}
-}
-
 @layer base {
 	h1,
 	h2,
@@ -81,7 +48,7 @@ body {
 }
 
 h1 {
-	font-size: 4em;
+	font-size: 4.5em;
 	text-align: center;
 }
 
