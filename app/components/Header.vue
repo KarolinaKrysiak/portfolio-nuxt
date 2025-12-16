@@ -33,9 +33,12 @@
 				<NavLink to="/about" @click="closeNav">About me</NavLink>
 				<NavLink to="/projects" @click="closeNav">Projects</NavLink>
 				<NavLink to="/contact" @click="closeNav">Contact</NavLink>
-				<div class="flex items-center justify-items-center">
-					<a target="_blank" href="https://www.linkedin.com/in/karolina-krysiak-01" class="mx-auto">
-						<img src="/assets/icons/li.svg" alt="linkedin icon" class="w-10 h-auto" />
+				<div class="flex justify-center">
+					<a target="_blank" href="https://www.linkedin.com/in/karolina-krysiak-01">
+						<img src="/assets/icons/li.svg" alt="linkedin icon" class="w-10 h-auto mx-4 mt-12" />
+					</a>
+					<a target="_blank" href="https://github.com/KarolinaKrysiak">
+						<img src="/assets/icons/git.svg" alt="github icon" class="w-10 h-auto mx-4 mt-12" />
 					</a>
 				</div>
 			</div>
