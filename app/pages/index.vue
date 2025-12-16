@@ -44,6 +44,31 @@
 					<PurpleButton to="/about">See more</PurpleButton>
 				</template>
 			</TileRow>
+
+			<TileRow>
+				<template #image>
+					<img alt="envelope image" src="assets/img/envelope.png" class="min-w-full min-h-[600px] object-cover" />
+				</template>
+				<template #content>
+					<h3>Get in touch</h3>
+					<RedDivider />
+					<address>
+						<a
+							href="mailto:karolinakrysiak01@gmail.com"
+							class="py-[30px] no-underline text-4xl text-text-light block transition duration-300 text-center hover:text-light-blue focus:text-light-blue"
+							>karolinakrysiak01@gmail.com</a
+						>
+					</address>
+					<div class="flex justify-center">
+						<a target="_blank" href="https://www.linkedin.com/in/karolina-krysiak-01">
+							<img src="/assets/icons/li.svg" alt="linkedin icon" class="w-10 h-auto mx-4 mt-12" />
+						</a>
+						<a target="_blank" href="https://github.com/KarolinaKrysiak">
+							<img src="/assets/icons/git.svg" alt="github icon" class="w-10 h-auto mx-4 mt-12" />
+						</a>
+					</div>
+				</template>
+			</TileRow>
 		</section>
 	</div>
 </template>
